@@ -28,6 +28,11 @@
   background-color: #EDF3FE;
 }
 
+#trackList li:last-child {
+  border-bottom: none;
+}
+
+
 #trackList li div.title {
 	font-size: 13px;
 	margin-bottom: 2px;
@@ -51,6 +56,38 @@
   font-weight: bold;
   font-size: 1.25em;
   color: #3875D7;
+}
+
+#player #controls {
+  padding-left: 10px;
+  margin-bottom: 7px;
+  float: left;
+  width: 61px;
+}
+
+#player .control {
+  display: inline-block;
+  padding: 3px;
+  border: 1px solid #eee;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  margin-right: 5px;
+}
+
+#progress {
+  float: left;
+  background-color: #FAFAFA;
+  height: 20px;
+  border-radius: 10px;
+  width: 310px;
+  margin-left: 10px;
+  margin-top: 3px;
+  position: relative;
+}
+#progress>div {
+  background-color: #e7e7e7;
+  height: 20px;
+  border-radius: 10px;
+  width: 55%;
 }
 
 
