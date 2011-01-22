@@ -1,13 +1,18 @@
 {
   "name": "HypeMonster",
   "version": "1.0",
-  "description": "Take the Hype Machine with you where ever you go (on the web... with Chrome)",
-  "background_page": "html/background.html",
+  "description": "Take the Hype Machine with you where ever you go... (on the web... with Chrome)",
+  "icons": {
+    "48": "img/heart-48.png",
+    "128": "img/heart-128.png"
+  },
   "browser_action": {
-    "default_icon": "img/heart.png",
+    "default_title": "HypeMonster",
+    "default_icon": "img/heart-19.png",
     "popup": "html/popup.html"
   },
+  "background_page": "html/background.html",
   "permissions": [
-    "http://localhost:3000/"
+    "http://hypem.com/*"
   ]
 }
