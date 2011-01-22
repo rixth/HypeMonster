@@ -24,6 +24,10 @@
 	font-size: 1.05em;
 }
 
+#trackList li:nth-child(2n) {
+  background-color: #EDF3FE;
+}
+
 #trackList li div.title {
 	font-size: 13px;
 	margin-bottom: 2px;
@@ -39,10 +43,6 @@
 }
 #trackList li.selected div.title {
   color: #FFF;
-}
-
-#trackList li:nth-child(2n) {
-  background-color: #EDF3FE;
 }
 
 #trackList li.prevPage, #trackList li.nextPage {
