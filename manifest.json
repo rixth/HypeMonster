@@ -1,0 +1,13 @@
+{
+  "name": "HypeMonster",
+  "version": "1.0",
+  "description": "Take the Hype Machine with you where ever you go (on the web... with Chrome)",
+  "background_page": "html/background.html",
+  "browser_action": {
+    "default_icon": "img/heart.png",
+    "popup": "html/popup.html"
+  },
+  "permissions": [
+    "http://localhost:3000/"
+  ]
+}

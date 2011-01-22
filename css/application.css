@@ -1,0 +1,72 @@
+#viewport, body {
+  width: 410px;
+  height: 350px;
+  overflow: hidden;
+  overflow-y: auto;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 12px;
+}
+
+#trackList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#trackList li {
+	display: block;
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+	border-bottom: 1px solid #ccc;
+	padding: 8px 10px;
+	color: #666;
+	font-size: 1.05em;
+}
+
+#trackList li div.title {
+	font-size: 13px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	word-wrap: break-word;
+	width: 100%;
+	color: #222;
+}
+
+#trackList li.selected {
+	background-color: #3875D7;
+	color: #FFF;
+}
+#trackList li.selected div.title {
+  color: #FFF;
+}
+
+#trackList li:nth-child(2n) {
+  background-color: #EDF3FE;
+}
+
+#trackList li.prevPage, #trackList li.nextPage {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #3875D7;
+}
+
+
+#viewport::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+#viewport::-webkit-scrollbar-track-piece {
+  background-color: #FAFAFA;
+  -webkit-border-bottom-right-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+}
+
+#viewport::-webkit-scrollbar-thumb:vertical {
+  height: 50px;
+  background-color: #ddd;
+  -webkit-border-radius: 8px;
+}
